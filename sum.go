@@ -1,4 +1,4 @@
-package main
+package sum
 
 import (
 	"fmt"
@@ -6,6 +6,7 @@ import (
 	"rsc.io/quote"
 )
 
-func main() {
+func Sum(a, b int) int {
 	fmt.Println(quote.Hello())
+	return a + b
 }
