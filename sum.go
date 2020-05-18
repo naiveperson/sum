@@ -8,5 +8,5 @@ import (
 
 func Sum(a, b int) int {
 	fmt.Println(quote.Hello())
-	return (a + b) * 2
+	return (a + b) * 3
 }
